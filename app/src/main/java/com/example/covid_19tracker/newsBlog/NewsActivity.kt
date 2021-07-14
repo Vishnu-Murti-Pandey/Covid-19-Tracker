@@ -16,7 +16,6 @@ import com.example.covid_19tracker.vaccineSlot.VolleySingleton
 class NewsActivity : AppCompatActivity(), NewsItemClicked{
 
     private lateinit var binding: ActivityNewsBinding
-    private lateinit var bindingNIL: ActivityNewsItemListBinding
     private lateinit var mAdapter: NewsListAdapter
     companion object {
         const val NEWS_URL = "https://saurav.tech/NewsAPI/top-headlines/category/health/in.json"
