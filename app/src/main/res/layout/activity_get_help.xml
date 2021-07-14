@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_over_card_view"
+    tools:context=".getHelp.GetHelpActivity">
+
+    <TextView
+        android:id="@+id/tv_Resources"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/resources"
+        android:textAllCaps="true"
+        android:layout_margin="15dp"
+        android:padding="6dp"
+        android:textStyle="bold"
+        android:textColor="#FF3D00"
+        android:textSize="22sp"
+        android:textAlignment="center"/>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:columnCount="2"
+        android:padding="8dp"
+        android:paddingHorizontal="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_Resources">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/vaccine_available_details"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            app:cardCornerRadius="20dp"
+            app:strokeColor="#E91E63"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_cardview"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/syringe"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check_for_vaccine_center"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:textColor="#9C27B0"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/book_slot"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:background="@drawable/bg_cardview"
+            app:cardCornerRadius="20dp"
+            app:strokeColor="#E91E63"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_cardview"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/booking"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/book_vaccine_slot"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:textColor="#9C27B0"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/help_regarding_vaccine"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_cardview"
+            app:cardCornerRadius="20dp"
+            app:strokeColor="#E91E63"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_cardview"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/help"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help_regarding_vaccine"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:textColor="#9C27B0"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/hospital_beds"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_cardview"
+            app:cardCornerRadius="20dp"
+            app:strokeColor="#E91E63"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_cardview"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/hospital_bed"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check_beds_availability"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:textColor="#9C27B0"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/covid_symptoms"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_cardview"
+            app:cardCornerRadius="20dp"
+            app:strokeColor="#E91E63"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_cardview"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/symptoms"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/covid_symptoms"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:textColor="#9C27B0"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/help"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_cardview"
+            app:cardCornerRadius="20dp"
+            app:strokeColor="#E91E63"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_cardview"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/donation"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help_amp_donate"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:textColor="#9C27B0"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
