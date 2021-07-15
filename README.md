@@ -77,7 +77,10 @@ This app has a help section in which you can get various facilities like:-
  
  <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/StatesActivitySceenShot.jpeg" width="230"/>   <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/VaccineSlotActivitySceenShot.jpeg" width="230"/>
 
- 
+
+# APK Download ⬇
+
+[Download here](https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/APK/app-debug.apk)
  
  
  
