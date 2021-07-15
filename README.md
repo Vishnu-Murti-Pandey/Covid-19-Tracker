@@ -54,8 +54,29 @@ This app has a help section in which you can get various facilities like:-
  3. [Covidindia.org](https://api.covid19india.org/data.json)
  4. [NewsApi](https://saurav.tech/NewsAPI/top-headlines/category/health/in.json)
  
- # ScreenShots 📸
+ # Screenshots 📸
  
+ <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/CalenderActivitySceenShot.jpeg" width="230"/>   <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/CountryActivitySceenShot.jpeg" width="215"/>   <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/CountryActivitySceenShot2.jpeg" width="230"/> 
+ 
+ 
+ 
+ <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/CovidSymptomsActivitySceenShot.jpeg" width="230"/>   <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/DonateActivitySceenShot.jpeg" width="230"/>   <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/EnterPhoneNumberSceenShot.jpeg" width="230"/>  
+ 
+ 
+ 
+ <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/EnterPinCodeActivitySceenShot.jpeg" width="230"/>   <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/EnterVerificationCodeSceenShot.jpeg" width="230"/>   <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/GetHelpActivitySceenShot.jpeg" width="230"/>  
+
+
+
+<img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/HospitalBedsActivitySceenShot.jpeg" width="230"/>   <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/MainActivity2SceenShot.jpeg" width="230"/>   <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/MainActivitySceenShot.jpeg" width="230"/>
+ 
+ 
+ 
+ <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/NewsActivitySceenShot.jpeg" width="230"/>   <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/PhoneNumbersActivitySceenShot.jpeg" width="230"/>   <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/ResourcesActivitySceenShot.jpeg" width="230"/>   
+ 
+ 
+ <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/StatesActivitySceenShot.jpeg" width="230"/>   <img src="https://github.com/Vishnu-Murti-Pandey/Covid-19-Tracker/blob/master/Screenshots/VaccineSlotActivitySceenShot.jpeg" width="230"/>
+
  
  
  
